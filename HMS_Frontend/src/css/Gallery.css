@@ -1,0 +1,106 @@
+.text{
+    height: 400px;
+    width: 1515px;
+    padding: 2px 50px;
+    /* background-color: rgb(193, 149, 233); */
+}
+h4{
+    /* color: rgb(188, 95, 95); */
+    margin-top: 80px;
+    margin-left: 470px;
+    font-weight: 100;
+    font-size: 40px;
+    /* padding-left: 300px; */
+}
+h5{
+    margin-left: 600px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(63, 194, 98);
+}
+p{
+    font-size: 16px;
+}
+.head{
+    background-color: rgb(249, 252, 252);
+    margin-left: 40%;
+}
+
+.head h2{
+    color: rgb(45, 44, 44);
+    font-size: 55px;
+    font-weight: 200;
+    margin-left: 60px;
+}
+.gallery{
+    padding: 5px 150px;
+    height: 750px;
+    width: 1515px;
+    margin-bottom: 30px;
+    /* background-color: rgb(255, 163, 163); */
+}
+.gallery .one{
+    display: flex;
+    justify-content: space-between;
+    height: 375px;
+    width: 1200px;
+    /* background-color: rgb(30, 30, 31); */
+}
+.gallery .two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 375px;
+    width: 1200px;
+    /* background-color: rgb(157, 157, 249); */
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #61616188;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+.image{
+        position: relative;
+        width: 50%;
+        height: 350px;
+        width: 350px;
+        /* background-color: aqua; */
+        transition: all 0.9s ease-in-out;
+}
+/* .image:hover .overlay {
+    bottom: 0;
+    height: 100%;
+} */
+.image:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    z-index: 999;
+  }
+img{
+    display: block;
+    /* width: 100%;
+    height: auto; */
+    height: 350px;
+    width:350px;
+    object-fit: cover;
+
+}
+  
+.overlay .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

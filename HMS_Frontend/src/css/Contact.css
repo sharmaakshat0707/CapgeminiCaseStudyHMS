@@ -1,0 +1,32 @@
+.contact-bg{
+    display: flex;
+    padding: 100px 80px;
+    height: 750px;
+    width: 1519.5px;
+    background-color: rgba(197, 197, 197, 0.879);
+}
+.Heading{
+     height: 10px;
+     width: 1519.5px;
+    background-color: rgba(199, 199, 199, 0.89);
+}
+.contact-bg .contact-cont{
+    height: 400px;
+    width: 800px;
+    padding-left: 70px;
+    padding-top: 10px;
+    /* background-color: aqua; */
+
+}
+.contact-bg .contact-form{
+    margin-left: 90px;
+    height: 490px;
+    padding: 10px 10px;
+    padding-left: 50px;
+    width: 800px;
+    /* background-color: rgb(95, 148, 54); */
+
+}
+.contact-bg .contact-form input{
+    color: black;
+}

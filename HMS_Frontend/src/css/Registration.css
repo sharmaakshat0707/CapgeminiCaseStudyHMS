@@ -1,0 +1,80 @@
+.bg{
+    display: flex;
+    height: 730px;
+    width: 1520px;
+    background-color: black;
+}
+.bg .firstOne{
+    height: 730px;
+    width:1000px;
+    background-color: rgb(218, 217, 217);
+}
+.bg .secondtwo{
+    height: 730px;
+    width: 520px;
+    background-color: rgb(55, 154, 83);
+}
+.content{
+    margin-top: 15%;
+    margin-left: 20%;
+    height: 50%;
+    width: 50%;
+    /* background-color: rgb(64, 20, 20); */
+}
+.content input{
+    color: #186e7f;
+}
+.firstOne .content h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #1b1a1a;
+    /* margin-right: 370px; */
+}
+.box{
+    background-color: rgb(254, 255, 255); 
+    padding: 20px 15px;
+    height: 30px; 
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid rgba(223, 224, 225, 0.919);
+}
+/* .firstOne .content input{
+    background-color: #13ccf1;
+} */
+.loginbutton{
+    background-color: rgb(55, 154, 83);
+    color: #f9f7f7;
+    margin-left: 120px;
+}
+.registerButton{
+    font-size: 16px;
+    padding: 10px 55px;
+    border-radius: 2px;
+    border: 1px solid rgb(55, 154, 83);
+    margin-left: 85px;
+    margin-top: 2px;
+    background-color: rgb(55, 154, 83);
+    box-shadow:  0 9px 16px 0 rgba(0,0,0,0.2);
+}
+.conn{
+    margin-top: 40%;
+    margin-left: 20%;
+    background-color: transparent;
+    /* color: #f6f3f3e7; */
+}
+h2{
+    font-weight:900;
+    font-size: 39px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+p{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.content .registerButton:hover{
+    background-color: #186e7f;
+}
+

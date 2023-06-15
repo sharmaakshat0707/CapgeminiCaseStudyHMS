@@ -1,0 +1,21 @@
+.creditbg{
+    height: 790px;
+    width: 1519.5px;
+    margin-top: 55px;
+    /* background-color: aqua; */
+}
+.credit-con{
+    height: 750px;
+    width: 700px;
+    padding: 150px 150px;
+    margin-left: 390px;
+    background-color: rgba(209, 209, 209, 0.518);
+    box-shadow: 5px 10px #898989c0;
+}
+.credit-con button{
+    margin-top: 20px;
+
+}
+.credit-con .form-label{
+
+}

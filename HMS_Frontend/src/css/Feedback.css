@@ -1,0 +1,29 @@
+.rating-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .emoji {
+    font-size: 32px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .emoji.selected {
+    background: #ffcc00;
+  }
+.feedback{
+    /* background-color: #15bb6b; */
+    padding: 10px 60px;
+    margin-left: 730px;
+    margin-top: 70px;
+    color: #109fa2;
+    border: 1.5px solid #078144;
+    margin-bottom: 70px;
+}  
+.feedback:hover{
+    background-color: #078144;
+}

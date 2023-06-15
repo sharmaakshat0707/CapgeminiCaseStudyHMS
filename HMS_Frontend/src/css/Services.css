@@ -1,0 +1,64 @@
+.service-panel{
+    height: 800px;
+    width: 1500.5px;
+    background-color: #faf8f8;
+}
+
+.service-one{
+    padding: 1px 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 1519.5px;
+    height: 400px;
+    /* background-color: aqua; */
+}
+
+.service-two{
+    padding: 1px 80px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    width: 1519.5px;
+    height: 440px;
+    /* background-color: rgb(44, 205, 100); */
+}
+
+.service-box{
+    border: 1px solid grey;
+    height: 370px;
+    padding: 1px 30px;
+    width: 390px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: #f6f6f6;
+
+}
+.service-box img{
+    height: 130px;
+    width: 130px;
+    margin-top: 9%;
+    margin-left: 32%;
+}
+
+.service-text h3{
+    /* background-color: #5b5a5a; */
+    text-align: center;
+    color: #424141;
+}
+.service-con p{
+    /* background-color: aqua; */
+    font-size: 17px;
+}
+/* .service-but{
+    background-color: blueviolet;
+} */
+.service-but button{
+    margin: 7px 110px;
+    border-radius: 3px;
+    background-color: rgba(52, 140, 172, 0.81);
+    padding: 8px 25px;
+    margin-right: 100px;
+}
+.service-but button:hover {
+    background-color: rgba(74, 205, 111, 0.81);
+    color: rgb(49, 48, 48);
+}

@@ -1,0 +1,35 @@
+.styles-img{
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+    flex: 0.5;
+}
+
+.styles-content{
+    height: 1450px;
+    width: 1200px;
+    /* background-color: blueviolet; */
+    display: column;
+    padding-left: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.styles-container{
+    width: 1200px;
+    min-height: fit-content;
+    background-color: rgba(141, 143, 142, 0.782);
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.styles-text{
+    /* color: #ecebeb; */
+    flex: 0.5;
+
+}

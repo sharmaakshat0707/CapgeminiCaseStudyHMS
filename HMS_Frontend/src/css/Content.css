@@ -1,0 +1,30 @@
+.content-head h1{
+    text-align: center;
+}
+.content-mid{
+    display: flex;
+    height: 500px;
+    width: 1400px;
+    padding: 10px;
+    background-color: #f1f0f0cd;
+    margin: 50px 60px;
+    box-shadow: 10px 10px 5px rgba(203, 202, 202, 0.71);
+    box-shadow: black;
+}
+.content-img img{
+    width: 500px;
+    height: 480px;
+    /* margin: 30px 30px; */
+
+}
+.content-img img:hover {
+    transform: scaleX(-1);
+  }
+.content-cont {
+    padding: 10px 10px;
+    
+}
+.content-cont p{
+    padding: 5px 60px;
+    font-size: 17px;
+}

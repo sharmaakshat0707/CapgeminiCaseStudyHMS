@@ -1,0 +1,23 @@
+.carousel1-banner>img{
+    /* margin: auto; */
+    width: 1300px;
+    height: 500px;
+
+}
+.slider-panel{
+  height: 620px;
+  width: 1519.5px;
+  /* background-color: blueviolet; */
+} 
+/* .slider-panel1{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(49, 226, 43);
+} */
+/* .slick-next:before {
+    content: none !important;
+} */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
